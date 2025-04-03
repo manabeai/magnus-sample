@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "add two numbers"
   spec.description = "add two numbers"
-  spec.homepage = "https://github.com/manabeai/add"
+  spec.homepage = "https://github.com/manabeai/magnus-sample"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
@@ -37,5 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rb_sys"
   spec.add_dependency "rake-compiler"
 
-  spec.extensions = ["ext/shuffle/extconf.rb"]
+  spec.extensions = ["ext/add/extconf.rb"]
 end
