@@ -36,4 +36,6 @@ Gem::Specification.new do |spec|
   # guide at: https://bundler.io/guides/creating_gem.html
   spec.add_dependency "rb_sys"
   spec.add_dependency "rake-compiler"
+
+  spec.extensions = ["ext/shuffle/extconf.rb"]
 end
